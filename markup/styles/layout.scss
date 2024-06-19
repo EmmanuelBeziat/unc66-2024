@@ -1,0 +1,16 @@
+.site {
+	min-height: 100vh;
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+
+	.admin-bar & {
+		min-height: calc(100vh - 32px);
+		@media screen and (max-width: 782px) {
+			min-height: calc(100vh - 46px);
+		}
+	}
+}
+
+.home .site-main {
+	margin-top: -72px;
+}
