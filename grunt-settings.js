@@ -7,8 +7,8 @@ module.exports = {
 	},
 	dist: {
 		root: 'assets',
-		styles: 'assets/css/',
-		scripts: 'assets/js/',
+		styles: 'assets/styles/',
+		scripts: 'assets/scripts/',
 		fonts: 'assets/fonts/',
 		images: 'assets/images/',
 	}

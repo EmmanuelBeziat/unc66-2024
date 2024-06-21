@@ -1,4 +1,23 @@
 // CSS Custom Properties
 :root {
+	// colors
+	--color-black: #17191e;
+	--color-white: #eee;
+	--color-gray-light: #faf7f0;
 
+	--color-primary: #2f3e7c;
+	--color-primary-alt: #daa410;
+
+	--color-secondary: #3c3b32;
+	--color-secondary-alt: #5d5c50;
+
+	// font stacks
+	--font-stack-common: Lato, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	--font-stack-heading: var(--font-stack-common);
+
+	// font sizes
+	--font-size-root: 16px;
+
+	// Transitions
+	--transition-regular: .25s ease-in-out;
 }
