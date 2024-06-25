@@ -1,6 +1,6 @@
 ## 25.06.2024
 
-* Deploy + test webhook json
+* Deploy build
 
 ## 18.06.2024
 
