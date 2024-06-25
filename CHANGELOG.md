@@ -1,6 +1,6 @@
 ## 25.06.2024
 
-* Deploy + test webhook
+* Deploy + test webhook 2
 
 ## 18.06.2024
 
