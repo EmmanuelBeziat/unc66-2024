@@ -10,3 +10,9 @@
 		}
 	}
 }
+
+.container {
+	max-width: var(--layout-size);
+	padding: var(--gutter-md);
+	margin-inline: auto;
+}
