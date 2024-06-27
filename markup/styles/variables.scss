@@ -17,6 +17,7 @@
 
 	// font sizes
 	--font-size-root: 16px;
+	--font-size-normal: 1rem;
 
 	// sizes
 	--layout-size: 75rem;
@@ -27,4 +28,11 @@
 
 	// Transitions
 	--transition-regular: .25s ease-in-out;
+
+	// Ratios
+	--ratio-square: 1;
+	--ratio-landscape: 4 / 3;
+	--ratio-portrait: 3 / 4;
+	--ratio-widescreen: 16 / 9;
+	--ratio-ultrawide: 21 / 9;
 }

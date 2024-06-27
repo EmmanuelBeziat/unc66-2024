@@ -1,11 +1,11 @@
 .btn {
 	--button-bg-active: var(--button-bg);
 	--button-bg-outline-active: var(--button-bg);
-	--button-color: #fff;
+	--button-color: var(--color-white);
 	--button-color-active: var(--button-color);
 	--button-color-outline: var(--button-color);
 	--button-color-outline-active: var(--button-color);
-	--button-border: #fff;
+	--button-border: var(--color-white);
 	--button-border-active: var(--button-border);
 	--button-shadow: 0 0 0 .25em rgba(0, 0, 0, .25);
 	--button-shadow-focus: var(--button-shadow);
@@ -19,6 +19,8 @@
 	background-color: var(--button-bg, transparent);
 	border: 1px solid var(--button-border);
 	color: var(--button-color);
+	font-size: var(--font-size-normal, 1em);
+	min-width: fit-content;
 	cursor: pointer;
 
 	&.btn-rounded {
@@ -73,7 +75,7 @@
 
 .btn-primary {
 	--button-bg: var(--color-primary);
-	--button-color: var(--color-black);
+	--button-color: var(--color-white);
 	--button-border: var(--color-primary);
 	--button-active: 0 0 0 .25em rgba(0, 0, 0, .15);
 	--button-active-focus: 0 0 0 .25em rgba(0, 0, 0, .25);
