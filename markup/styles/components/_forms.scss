@@ -1,0 +1,22 @@
+.form-control,
+.form-select,
+.form-check-input[type="checkbox"] {
+	border-radius: 0;
+	font-size: 1rem;
+	caret-color: var(--color-black);
+	accent-color: var(--color-primary);
+}
+
+.form-check-input {
+	margin-top: .2em;
+	margin-right: .5em;
+}
+
+.form-check-label {
+	user-select: none;
+	cursor: pointer;
+}
+
+textarea.form-control {
+	min-height: calc(12.5em + .75rem + 2px);
+}

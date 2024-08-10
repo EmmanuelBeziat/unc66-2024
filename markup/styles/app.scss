@@ -1,17 +1,26 @@
-@use "variables.scss";
 
-@use "vendors/normalize.scss";
+@use "vendors/bootstrap-custom";
+@use "vendors/normalize";
 
-@use "basics.scss";
-@use "layout.scss";
+@use "variables";
 
-@use "fonts/lato.scss";
+@use "basics";
+@use "layout";
 
-@use "components/buttons.scss";
+@use "fonts/lato";
 
-@use "partials/header.scss";
-@use "partials/footer.scss";
+@use "components/buttons";
+@use "components/cookies";
+@use "components/forms";
+@use "components/pagination";
+@use "components/videos";
 
-@use "pages/single.scss";
+@use "partials/header";
+@use "partials/footer";
 
-@use "vendors/wordpress.scss";
+@use "pages/home/hero";
+@use "pages/single";
+
+@use "vendors/swiper";
+@use "vendors/wordpress";
+@use "vendors/wpcf7";
